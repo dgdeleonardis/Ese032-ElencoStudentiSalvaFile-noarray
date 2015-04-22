@@ -7,10 +7,10 @@
 #define N 3
 // Definisci il tipo di dato struct s_studente
 struct s_studente {
-    char nome[MAX_STRLEN];
-    char cognome[MAX_STRLEN];
+    char nome[MAX_STRLEN+1];
+    char cognome[MAX_STRLEN+1];
     int eta;
-    char classe[MAX_STRLEN];
+    char classe[MAX_STRLEN+1];
 };
 // Definisci studente come struct s_studente
 struct s_studente studente;
